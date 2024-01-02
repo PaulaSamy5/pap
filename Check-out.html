@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check out Page</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/productStyle.css">
+
+</head>
+
+<body class="check">
+    <!-- Navbar -->
+    <div class="text">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Products.html">
+                    <img src="Images/Blue logo.png" alt="">
+                </a>
+                <button class="dm" onclick="myfunction()"><span>Change mode</span><i
+                        class="fa-solid fa-circle-half-stroke"></i></button>
+
+                <div class="search container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                        <button class="b btn btn-outline-success" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <button class="icon navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse text2" id="navbarNavDropdown">
+                    <ul class="dd navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Best offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="Ver">
+        <div class="out">
+            <!-- <label for="">please, Choose your payment method</label>-->
+            <form>
+                <input type="radio" name="payment" value="cash" id="cash">
+                <label for="cash">Cash</label>
+
+                <input type="radio" name="payment" value="credit" id="credit">
+                <label for="credit">Credit</label>
+            </form>
+            <div class="th">
+                <form action="#" class="credit">
+                    <label for="">Current Address</label><br>
+                    <input type="text" placeholder="Like: **, Street, City"><br>
+                    <label for="">Phone Number</label><br>
+                    <input type="tel" placeholder="Like: 01289562***"><br>
+                    <label for="">Credit Card Number</label><br>
+                    <input type="number" placeholder="Like: ****,****,****,****"><br>
+                </form>
+                <div class="image">
+                    <p>PAB wants to thank you for your precious trust❤️</p>
+                </div>
+            </div>
+            <div><button>Check out</button></div>
+        </div>
+    </div>
+    <!-- =========== Our JavaScript ============== -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

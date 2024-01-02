@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Description</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/all.min.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/productStyle.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="text">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="Products.html">
+                    <img src="Images/Blue logo.png" alt="">
+                </a>
+                <button class="dm" onclick="myfunction()"><span>Change mode</span><i
+                        class="fa-solid fa-circle-half-stroke"></i></button>
+                <div class="search container-fluid">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search here" aria-label="Search">
+                        <button class="b btn btn-outline-success" type="submit"><i
+                                class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <button class="icon navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse text2" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Best offers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- The description -->
+    <div class="my-product">
+        <div class="image">
+            <img src="Images/Legion_5-removebg-preview.png" alt="">
+            <div class="rating">
+                <input type="radio" id="star5" name="rating" value="5"><label for="star5">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1">&#9733;</label>
+            </div>
+        </div>
+        <div class="descr">
+            <h2>Lenovo legion 5</h2>
+            <p>Lenovo Legion 5 Gaming Laptop, 15.6" 165Hz WQHD(2560x1440), Ryzen 7-7735H, NVIDIA GeForce RTX 4060(140W),
+                32GB RAM, 2TB PCIe SSD, Window 11 Home, Backlit Keyboard, with HDMI</p>
+
+            <h5>Price:<span> 39,400 EGP</span></h5>
+            <a href="Check-out.html"><button>Buy now</button></a>
+            <button>Add to cart </button>
+
+            <h3>Details</h3>
+            <table>
+                <tr>
+                    <td><span class="a">Brand</span></td>
+                    <td><span>Lenovo</span></td>
+                </tr>
+                <tr>
+                    <td><span class="a">Model Name</span></td>
+                    <td><span>Lenovo Legion 5</span></td>
+                </tr>
+                <tr>
+                    <td><span class="a">Screen Size</span></td>
+                    <td><span>15.6 Inches</span></td>
+                </tr>
+                <tr>
+                    <td><span class="a">Color</span></td>
+                    <td><span>Black</span></td>
+                </tr>
+                <tr>
+                    <td><span class="a">Hard Disk Size</span></td>
+                    <td><span>2 TB</span></td>
+                </tr>
+                <tr>
+                    <td><span class="a">CPU Model</span></td>
+                    <td><span>AMD Ryzen 7</span></td>
+                </tr>
+                <tr>
+                    <td><span class="a">Ram Memory</span></td>
+                    <td><span>32 GB</span></td>
+                </tr>
+                <tr>
+                    <td><span class="a">OS</span></td>
+                    <td><span>Windows 11 Home</span></td>
+                </tr>
+                <tr>
+                    <td><span class="a">Special Feature</span></td>
+                    <td><span>Backlit Keyboard, Anti Glare Coating, Numeric Keypad</span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <!-- =========== Our JavaScript ============== -->
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/main.js"></script>
+</body>
+
+</html>

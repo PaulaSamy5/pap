@@ -1,0 +1,493 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/*CSS for all website*/
+.all {
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.all .home {
+    background-image: url(../Images/p8.avif);
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.all .home .text {
+    width: 90%;
+    margin: auto;
+    height: 15%;
+    background-color: transparent;
+    position: fixed;
+    /*background-color: rgba(0, 0, 0, 0.09);*/
+    position: relative;
+}
+
+.all .home .text i {
+    color: white;
+    font-size: 25px;
+}
+
+.all .home .text nav {
+    background-color: transparent;
+}
+
+.all .home .text .navbar {
+    background-color: transparent !important;
+}
+
+.all .home .text img {
+    width: 100px;
+    height: 60px;
+}
+
+.all .home .text .text2 {
+    text-align: right;
+    justify-content: right;
+    margin: auto;
+}
+
+.all .home .text .text2 a {
+    margin: 0 11px;
+    font-size: 18px;
+    color: white;
+    transition: all 0.7s;
+}
+
+.all .home .text .text2 a:hover {
+    background-color: transparent;
+    border-bottom: 2px solid rgb(66, 123, 127);
+    color: rgb(66, 123, 127);
+    transition: none;
+    /* Disable transition on hover */
+}
+
+.all .home .ads {
+    /*background-color: red;*/
+    margin-top: 100px;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.all .home .ads h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.all .home .content {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.all .home .content .info {
+    width: 50%;
+    height: 300px;
+}
+
+.all .home .content .info h2 {
+    text-align: center;
+    font-size: 75px;
+    font-weight: 750;
+    color: white;
+}
+
+.all .home .content .info p {
+    text-align: center;
+    font-size: 22px;
+    padding-left: 25px;
+    color: whitesmoke;
+}
+
+.all .home .content .info .buttons {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+
+.all .home .content .info .buttons button {
+    width: 35%;
+    padding: 3px 0;
+    margin: 10px;
+    border: none;
+    background-color: rgb(181, 117, 204);
+    
+    font-weight: 500;
+    border-radius: 12px;
+    font-size: 26px;
+}
+.all .home .content .info .buttons button a{
+    text-decoration: none;
+    color: #222;
+}
+.all .home .content .info .buttons button:hover{
+    background-color: rgb(160, 100, 180);
+    color: #fff;
+}
+.all .home .content .info .buttons button:hover > a{
+    color: #fff;
+}
+.all .home .content .info .buttons .vip {
+    width: 50%;
+    background-color: gold;
+    padding: 7px;
+}
+.all .home .content .info .buttons .vip:hover{
+    background-color: rgb(202, 172, 0);
+    cursor: pointer;
+}
+.all .home .content .info h2 span {
+    color: rgb(224, 158, 249);
+}
+
+.all .home .content .ph {
+    width: 45%;
+}
+
+.all .home .content img {
+    margin: 10px;
+    width: 570px;
+    border-radius: 12px;
+}
+
+.alll{
+    background-color: #1a1a3e;
+    background-color: #2c2c5a;
+    width: 100%;
+    height: 100vh;
+}
+/* Sign in page */
+
+.alll .sign-in{
+    background-color: rgb(56, 56, 103);
+    width: 37%;
+    height: 60vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+    box-shadow:0 0 30px rgba(246, 246, 246, 0.1)
+}
+.alll .sign-in h2{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.alll .sign-in label{
+    color: aliceblue;
+    font-size: 18px;
+}
+.alll .sign-in input{
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(246, 246, 246, 0.1);
+    /*box-shadow:0 0 30px rgba(246, 246, 246, 0.1);*/
+    color: white;
+    padding: 3px 10px;
+    font-size: 20px;
+}
+.alll .sign-in button{
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 650;
+    color: white;
+    background-color: #393975;
+    padding: 3px 5px;
+    border: 3px solid #393975;
+    /*box-shadow:0 0 10px #2c2c5a;*/
+}
+
+.alll .sign-in p{
+    font-size: 16px;
+    padding-top: 17px;
+    text-align: center;
+    color: #fff;
+}
+.alll .sign-in a{
+    text-decoration: none;
+    color: #6666d9;
+}
+.alll .sign-in a:hover{
+    color: #9494e2;
+}
+.alll .sign-in.up{
+    height: 70vh;
+}
+.all.product{
+    height: 5000px;
+}
+.all.product .text{
+    position: absolute;
+    left: 5%;
+    position: fixed;
+}
+.all .home.s{
+    background-color: white;
+    background-image: none;
+}
+.all .home.s{
+    color: black !important;
+} 
+.all .home.s {
+    color: black !important;
+    height: 100%;
+} 
+.all .home.s a{
+    color: black !important;
+}
+.all .home.s a:hover{
+    color: rgb(66, 123, 127) !important;
+    border-radius: 2px;
+}
+
+.all .home.s .search{
+    width: 33%;
+    
+    margin: auto;
+    margin-left: 90px;
+}
+.all .home.s .search button{
+    border: 1px solid darkblue;
+    color: black;
+}
+.all .home.s .search button:hover{
+    background-color: rgb(0, 0, 175);
+    color: white;
+}
+.all .disc{
+    width: 85%;
+    height: 33px;
+    background-color: red;
+}
+.all .home.s nav{
+    position: relative;
+}
+
+/* ========== Responsive for Tablet*/
+@media(max-width: 900px){
+    
+    .all .home .text2 ul {
+        margin: auto;
+        height: 15%;
+        background-color: rgba(3, 21, 53, 0.9);
+        color: white !important;
+    }
+    .all .home .text .text2 a:hover {
+        border: none;
+    }
+    .all .home .ads {
+        width: 40%;
+    }
+    .all .home .ads h1 {
+        font-size: 40px;
+        color: white;
+    }
+    .all .home .content{
+        flex-direction: column-reverse;
+    }
+
+    .all .home .content .info {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .all .home .content .info h2 {
+        font-size: 45px;
+        font-weight: 750;
+        color: white;
+    } 
+    .all .home .content .info p {
+        text-align: center;
+        font-size: 17px;
+        padding-left: 0;
+        color: whitesmoke;
+    }
+    .all .home .content .info .buttons {
+        width: 90%;
+    }
+    .all .home .content .info .buttons button {
+        width: 43%;
+        padding: 6px 10px;
+        margin: 5px;
+        font-weight: 600;
+        font-size: 28px;
+        text-align: center;
+    }
+    .all .home .content .info .buttons .vip {
+        width: 80%;
+        margin: 10px;        
+    }
+    .all .home .content .ph {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .all .home .content img {
+        width: 100%;
+        margin: 0;
+    }
+    .alll .sign-in{
+        width: 65%;
+        height: 38vh;
+    }
+    .alll .sign-in.up{
+        height: 46vh;
+    }
+    .all .home.s .text .search{
+        display: block !important;
+        height: auto;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 0;
+    }
+    .all .home.s .text .search form{
+        display: block !important;
+        margin-top: 20px;
+    }
+    .all .home.s .search input{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    .all .home.s .search button{
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+        margin-left: 20px;
+        height: 35px;
+        display: flex;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }  
+}
+/* ========== Responsive for mobile*/
+@media(max-width:450px){
+
+    .all .home .text2 ul {
+        margin: auto;
+        height: 15%;
+        background-color: rgba(3, 21, 53, 0.9);
+        color: white !important;
+    }
+    .all .home .text .text2 a:hover {
+        border-bottom: none;
+    }
+    .all .home .ads {
+        width: 80%;
+        margin-top: 1px;
+        padding-top: 1px;
+    }
+    .all .home .ads h1 {
+        font-size: 40px;
+        color: white;
+        margin-top: 1px;
+        padding-top: 1px;
+
+    }
+    .all .home .content{
+        flex-direction: column-reverse;
+    }
+
+    .all .home .content .info {
+        width: 90%;
+        margin: auto;
+    }
+    
+    .all .home .content .info h2 {
+        font-size: 45px;
+        font-weight: 750;
+        color: white;
+    } 
+    .all .home .content .info p {
+        text-align: center;
+        font-size: 17px;
+        padding-left: 0;
+        color: whitesmoke;
+    }
+    .all .home .content .info .buttons {
+        width: 90%;
+    }
+    .all .home .content .info .buttons button {
+        width: 43%;
+        padding: 6px 10px;
+        margin: 5px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    .all .home .content .info .buttons .vip {
+        width: 80%;
+        margin: 10px;
+        margin-top: 5px;        
+    }
+    .all .home .content .ph {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .all .home .content img {
+        width: 100%;
+        margin: 0;
+    }
+    .alll .sign-in{
+        width: 100%;
+        height: 55vh;
+    }
+    .alll .sign-in.up{
+        height: 63vh;
+    }
+    .all .home.s .text .search{
+        display: block !important;
+        height: auto;
+        flex-direction: column;
+        width: 50%;
+        margin-left: 0;
+    }
+    .all .home.s .text .search form{
+        display: block !important;
+        margin-top: 20px;
+    }
+    .all .home.s .search input{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+    .all .home.s .search button{
+        flex-direction: column;
+        width: 70%;
+        margin: auto;
+        margin-left: 20px;
+        height: 35px;
+        display: flex;
+        padding: 5px;
+        text-align: center;
+        justify-content: center;
+        text-align: center;
+    }  
+}
